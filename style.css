@@ -1,5 +1,20 @@
+
 body {
   font-family: 'Roboto', sans-serif;
-  margin-top: auto;
-  margin-bottom: auto;
+  min-height: 100vh;
+}
+
+.main-wrapper {
+  height: 100vh;
+}
+
+
+.align-items-center {
+  display: flex;
+  align-items: center;  /*Aligns vertically center */
+  justify-content: center; /*Aligns horizontally center */
+}
+
+.container{
+  height: 100%;
 }
